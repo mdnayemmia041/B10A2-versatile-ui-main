@@ -412,3 +412,31 @@ hr{
         text-align: center;
         padding: 35px 0;
 }
+/* responsive smaller device */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 0 20px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .fa-solid{
+        display: block;
+    }
+
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .total-tutorial{
+        width: 155px;
+        right: 185px;
+        bottom: 151px;
+    }
+    .total-video{
+        width: 145px;
+        top: 47px;
+        left: 194px;
+    }
+
+}
