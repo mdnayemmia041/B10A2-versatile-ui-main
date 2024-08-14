@@ -410,6 +410,7 @@ hr{
     display: none;
 }
 /* responsive smaller device */
+
 @media screen and (max-width: 576px) {
     header{
         padding: 0 20px;
@@ -470,17 +471,21 @@ hr{
         width: 100%;
     }
 
+    .our-team{
+        margin: 66px 20px;
+    }
     .team-photo{
-        display: grid;
-    grid-template-columns: 1fr;
-
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        margin-top: 37px;
     }
 
+    footer{
+        padding: 0 20px;
+    }
     .footer-content{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-right: 5px;
-        gap: 0 5px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
     }
     
 }
