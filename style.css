@@ -406,6 +406,9 @@ hr{
         text-align: center;
         padding: 35px 0;
 }
+.ham-burger{
+    display: none;
+}
 /* responsive smaller device */
 @media screen and (max-width: 576px) {
     header{
@@ -413,6 +416,9 @@ hr{
     }
     .nav-items{
         display: none;
+    }
+    .ham-burger{
+        display: block;
     }
     .fa-solid{
         display: block;
@@ -473,6 +479,8 @@ hr{
     .footer-content{
         display: grid;
         grid-template-columns: 1fr;
+        margin-right: 5px;
+        gap: 0 5px;
     }
     
 }
