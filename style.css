@@ -438,5 +438,36 @@ hr{
         top: 47px;
         left: 194px;
     }
+    .habits{
+        margin: 0 20px;
+    }
+    .all-habits{
+        flex-direction: column;
+    }
+    .run{
+        flex-direction: column;
+        margin: 66px 20px;
+        gap: 31px;
+    }
+    .run img{
+        width: 100%;
+    }
+    .calc-info{
+        flex-direction: column;
+        gap: 42px;
+        margin: 0 20px;
+    }
+    .bmi-chart{
+        width: 100%;
+    }
+    .bmi-form-container{
+        width: 100%;
+    }
+    .input-field{
+        width: 170px;
+    }
+    .full-width-field{
+        width: 100%;
+    }
 
 }
