@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +14,9 @@
 }
 
 /* Shared Styles */
+.hide{
+    display: none;
+}
 
 body{
     font-family: "Inter", sans-serif;
@@ -82,6 +86,11 @@ header{
     padding: 8px 20px;
     border-radius: 46px;
 }
+.fa-solid{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    display: none;
+}
 
 /* Banner Styles */
 
@@ -95,6 +104,10 @@ header{
     font-size: 4.8rem;
     color: var(--primary-color);
     font-weight: 900;
+}
+.miama-font{
+    font-family:'Miama', sans-serif;
+    font-weight: 400;
 }
 .banner-content p{
     font-size: 1rem;
@@ -117,15 +130,15 @@ header{
     position: absolute;
     top: 125px;
     left: 230px;
-}
-.total-video{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     width: 193px;
     padding: 17px 24px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
+
 }
+
 .total-video h4{
         font-size: 2.5rem;
         font-weight: 900;
@@ -167,6 +180,10 @@ header{
 
 /* Habit section styles */
 
+.habits{
+    max-width: 1060px;
+    margin: 0 auto;
+}
 .habits h1, .habits p{
     text-align: center;
 }
@@ -194,13 +211,15 @@ header{
 /* Run section styles */
 
 .run{
+    max-width: 1060px;
+    margin: 100px auto;
     display: flex;
     align-items: center;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
     padding: 30px;
     gap: 165px;
-    margin: 100px 0;
+   
 
 }
 .run img{
@@ -214,15 +233,22 @@ header{
     margin-top: 14px;
     margin-bottom: 34px;
 }
-.run-content button{
+/* .run-content button{
     width: 224px;
 }
 .run-content{
     margin-left: 22px;
+} */
+.run-content{
+    margin-left: 22px;
+    text-align: justify;
 }
 
 /* Our team styles */
-
+.our-team{
+    max-width: 1060px;
+    margin: 88px auto;
+}
 .our-team h1, .our-team p{
     text-align: center;
 }
@@ -265,6 +291,79 @@ header{
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+/* BMI calculator section styles */
+
+.bmi-calc-heading{
+    text-align: center;
+    margin-bottom: 88px;
+}
+.calc-container{
+    background-color: rgb(34, 34, 34);
+    padding-top: 49px;
+    padding-bottom: 55px;
+}
+.calc-info{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-chart{
+    width: 50%;
+}
+.bmi-heading{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: var(--primary-color);  
+}
+th{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-align: left;
+}
+td{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--primary-color-2);
+}
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 151px;
+    height: 42px;
+    padding-left: 20px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 52px;
+}
+.bmi-form p{
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+.bmi-form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.input-field{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    padding: 13px 20px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    flex: 1;
+}
+#bmi-submit{
+    margin-top: 34px;
+    width: 224px;
+}
+
 
 /* Footer section styles */
 
