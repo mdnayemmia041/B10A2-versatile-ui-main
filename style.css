@@ -22,10 +22,6 @@ body{
     font-family: "Inter", sans-serif;
     background-color: var(--background-primary);
 }
-main{
-    max-width: 1060px;
-    margin: 0 auto;
-}
 .btn-primary{
     font-size: 1.12rem;
     font-weight: 600;
@@ -86,11 +82,11 @@ header{
     padding: 8px 20px;
     border-radius: 46px;
 }
-.fa-solid{
+ .fa-solid{
     color: var(--primary-color);
     font-size: 1.6rem;
     display: none;
-}
+ }
 
 /* Banner Styles */
 
